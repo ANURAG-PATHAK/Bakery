@@ -4,7 +4,9 @@ const Navbar = () => {
   return (
     <div className="navbar">
       <div className="navbar-bar">
-        <div className="nav-heading">Bakery</div>
+        <div className="nav-heading">
+          <a href="">Bakery</a>
+        </div>
         <div className="nav-items">
           <div className="items">
             <a href="http://">Home</a>
@@ -20,7 +22,9 @@ const Navbar = () => {
           </div>
         </div>
         <div className="nav-register">
-          <div className="register">Login/Register</div>
+          <div className="register">
+            <a href="">Login/Register</a>
+          </div>
           <div className="cart">
             <a href="" className="favorites">
               <img src={images.heart} alt="favorites" />

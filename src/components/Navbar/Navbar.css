@@ -26,10 +26,14 @@
 
 .nav-heading {
     margin-left: 90px;
+}
+
+.nav-heading>a {
+    text-decoration: none;
+    color: #CE44E4;
     font-family: 'Arbutus Slab', serif;
     font-size: 35px;
     font-weight: 400;
-    color: #CE44E4;
     line-height: 43.75px;
     text-align: left;
 }
@@ -64,13 +68,14 @@
     justify-content: space-between;
 }
 
-.register {
+.register>a {
+    text-decoration: none;
+    color: #000000;
     font-family: 'Montserrat';
     font-size: 20px;
     font-weight: 400;
     line-height: 24.38px;
     text-align: left;
-    color: #000000;
 }
 
 .cart {
