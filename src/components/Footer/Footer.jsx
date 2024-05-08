@@ -5,7 +5,7 @@ const Footer = () => {
   return (
     <>
       <div className="footer">
-        <div className="left">
+        <div className="footer-left">
           <h2 className="footer-heading">
             <a href="">Bakery</a>
           </h2>
@@ -27,14 +27,14 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="middle">
+        <div className="footer-middle">
           <h3>Our Stores</h3>
           <a href="">Slovakia</a>
           <a href="">Czech Republic</a>
           <a href="">Finland</a>
           <a href="">Poland</a>
         </div>
-        <div className="right">
+        <div className="footer-right">
           <h3>Useful Links</h3>
           <a href="">Home</a>
           <a href="">Privacy Policy</a>
