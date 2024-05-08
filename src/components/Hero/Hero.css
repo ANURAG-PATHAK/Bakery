@@ -8,11 +8,11 @@
 
 .hero-left {
     display: flex;
-    align-items: center;
     flex-direction: column;
     justify-content: center;
     text-align: left;
-    width: 35%;
+    width: 45%;
+    padding-left: 32px;
 }
 
 .hero-right {
@@ -20,7 +20,7 @@
     align-items: center;
     flex-direction: column;
     justify-content: center;
-    width: 60%;
+    width: 50%;
 }
 
 .hero-image {
@@ -52,6 +52,7 @@
     line-height: 65px;
     text-align: "left";
     color: #81008C;
+    margin-bottom: 12px;
 }
 
 .hero-content {
@@ -60,12 +61,16 @@
     font-weight: 400;
     line-height: 26px;
     text-align: "left";
+    color: #282828;
 }
 
 .shop--button {
+    margin-top: 24px;
+    width: 150px;
     padding: 12px 16px 12px 16px;
     border-radius: 10px;
     background: #973499;
+    margin-bottom: 24px;
 }
 
 .shop--button>a {
