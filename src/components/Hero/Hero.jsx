@@ -40,7 +40,7 @@ const Hero = () => {
           <img src={images.vectorImage} alt="" />
         </a>
       </div>
-      <img src={images.separator} alt="" />
+      <img src={images.separator} alt="" className="separator" />
     </>
   );
 };
