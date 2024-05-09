@@ -45,7 +45,7 @@ const Footer = () => {
       <div className="credits">
         <div className="credits-content">
           Designed by <a href="">ll cc</a> and developed by{" "}
-          <a href="">anuraag</a>
+          <a href="">anurag</a>
         </div>
         <div className="credits-copyright">© Bakery All rights reserved.</div>
       </div>
