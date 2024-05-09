@@ -5,9 +5,9 @@
     justify-content: center;
 }
 
-.right,
-.left,
-.middle {
+.footer-right,
+.footer-left,
+.footer-middle {
     display: flex;
     flex-direction: column;
     align-items: center;
