@@ -17,6 +17,10 @@
   background: #555;
 }
 
+html {
+  overflow-x: hidden;
+}
+
 * {
   margin: 0;
   padding: 0;

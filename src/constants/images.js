@@ -7,6 +7,8 @@ import ellipse from '../assets/ellipse.svg';
 import facebook from '../assets/facebook.svg';
 import linkedin from '../assets/linkedin.svg';
 import instagram from '../assets/instagram.svg';
+import productsLine from '../assets/products-line.svg';
+import line from '../assets/line.svg'
 export default {
     heart,
     basket,
@@ -16,5 +18,7 @@ export default {
     ellipse,
     facebook,
     linkedin,
-    instagram
+    instagram,
+    productsLine,
+    line,
 };

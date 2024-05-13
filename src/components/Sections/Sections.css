@@ -1,0 +1,97 @@
+.image-container {
+    position: relative;
+    width: 100vw;
+}
+
+.overlay-content {
+    position: absolute;
+    top: 10%;
+    z-index: 1;
+}
+
+.section--top {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section--top-heading {
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    text-align: left;
+    color: #000000;
+}
+
+.section--top-content {
+    padding-top: 20px;
+    font-family: "Montserrat";
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 36.57px;
+    text-align: left;
+    color: #E35050;
+}
+
+.section--top-left {
+    align-self: flex-start;
+    width: 30%;
+    margin-left: 10%;
+}
+
+.section--top-right {
+    width: 60%;
+    margin-right: 10%;
+}
+
+.section--top-right-image {
+    width: 100%;
+    height: 50%;
+}
+
+.section-top-right-content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.section-top-right-content-title {
+    width: 30%;
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24.38px;
+    text-align: center;
+    color: #000000;
+}
+
+.section--bestseller {
+    margin-top: 150px;
+    display: flex;
+}
+
+.section--bestseller-heading {
+    display: flex;
+    width: 100vw;
+    align-items: center;
+    justify-content: center;
+}
+
+.section--bestseller-heading-text {
+    font-family: "Montserrat";
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 65px;
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: #81008C;
+    background-color: #fff8f8;
+}
+
+.section--bestseller-heading-line {
+    width: 22%;
+    height: 5px;
+}
